@@ -1,0 +1,12 @@
+!drop <alts start dropping.>
+!stop <alts stop dropping.>
+!setup <alts setup at host or specified location.>
+!fps <alts fps goes to the specified amount.>
+!wallet <alts equip wallet.>
+!bring <brings alts to host.>
+!airlock <airlocks alts.>
+!freeze <freezes alts in place.>
+!crash <loads swag crash or encrypt crash on alts screens.>
+!tp <tps username to other player or location.>
+!dropuntil <alts drop until the specified amount.>
+!loopdestroy <loop destroys cash on alts screens.>

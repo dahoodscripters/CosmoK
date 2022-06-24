@@ -1,0 +1,53 @@
+!drop <alt username, "all", none=all> <100-10000, none=10000>
+!stop <alt username, none=all>
+!dropuntil <amount use K or M> <alts numbers, none=all alts drops the amount>
+!bring <alt username, none=all>
+!setup <bank, admin, school, train, sz3, basket, taco, jail, undertrain, club, player name, none=controller>
+!crash <swag, encrypt, none=swag> <times to execute, none=1> <fps, none=default>
+!countcash <distance, none=whole map>
+!kickalts <reason, none=unknown reason>
+!freeze <alt username, none=all>
+!wallet <alt username, none=all>
+!airlock <alt username, "all", none=all> <height number>
+!reset <alt username, none=all>
+!say <message>
+!setadvert <message>
+!setadtime <number of seconds>
+!advert
+!fps <number>
+!cashaura <alt username, "all", none=all> <amount K or M, none=infinite>
+!vibe <alt username, "all", none=all> <animation id, none=default dance>
+!follow <player player, none=controller> <delay, none=0.1 second>
+!hide <alt username, none=all>
+!loopdestroy <alt username, none=all>
+!loopkill <player username> <alt username, none=Alt1 if exist>
+!stopkill <alt username>
+!line <player username, none=controller>
+!block <alt username, none=all>
+!spam <message>
+!noclip <alt username, none=all>
+!mask <alt username, none=all>
+!weightfarm <alt username, none=all>
+!lettucefarm <alt username, none=all>
+!god <alt username, none=all>
+!form <location> <form>
+!stack <player username, none=all>
+!walletof <player username, none=alt>
+!circle <player username, none=controller>
+!quick <location>
+!flyanim <alt username, none=all>
+!dupe <alt username>
+!benx <player username, none=controller> <alt username, none=all>
+!grave <alt username, "all", none=all> <height number>
+!tp <player username> <location or player username>
+!antistomp <alt username, none=all>
+!autostomp <alt username, none=all>
+!antibag <alt username, none=all>
+!fling <player username> <alt username, none=all>
+!spin <alt username, none=all>
+!grab <alt username, none=all>
+!antiarrest <alt username, none=all>
+!sit <alt username, none=all>
+!moneygun <alt username, none=all>
+!spy
+!donate

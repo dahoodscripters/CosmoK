@@ -1,0 +1,35 @@
+!drop <alt username, "all", none=all> <100-10000, none=10000>
+!stop <alt username, none=all>
+!dropuntil <amount use K or M> <alts numbers, none=all alts drops the amount>
+!bring <alt username, none=all>
+!setup <bank, admin, school, train, sz3, basket, taco, jail, undertrain, club, player name, none=controller>
+!crash <swag, encrypt, none=swag> <times to execute, none=1> <fps, none=default>
+!countcash <distance, none=whole map>
+!kickalts <reason, none=unknown reason>
+!freeze <alt username, none=all>
+!wallet <alt username, none=all>
+!airlock <alt username, "all", none=all> <height number>
+!reset <alt username, none=all>
+!say <message>
+!setadvert <message>
+!setadtime <number of seconds>
+!advert
+!fps <number>
+!cashaura <alt username, "all", none=all> <amount K or M, none=infinite>
+!follow <player player, none=controller> <delay, none=0.1 second>
+!hide <alt username, none=all>
+!loopdestroy <alt username, none=all>
+!loopkill <player username> <alt username, none=Alt1 if exist>
+!stopkill <alt username>
+!line <player username, none=controller>
+!block <alt username, none=all>
+!weightfarm <alt username, none=all>
+!lettucefarm <alt username, none=all>
+!god <alt username, none=all>
+!walletof <player username, none=alt>
+!flyanim <alt username, none=all>
+!dupe <alt username>
+!benx <player username, none=controller> <alt username, none=all>
+!grave <alt username, "all", none=all> <height number>
+!tp <player username> <location or player username>
+!fling <player username> <alt username, none=all>
