@@ -1,24 +1,19 @@
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-repeat wait() until game.Workspace.Players:FindFirstChild(game.Players.LocalPlayer.Name)
+-- INSTRUCTIONS --
+--[[
 
-local TypeOfScript = "Simple" -- Simple/Basic/Complex/ExtraSimple
+Add your main account user ID to controller and add your alts accounts IDs to the alts table.
 
---[[ SIMPLE INTRUCTIONS ]]--
+]]
 
---Put your host userID inside of controller
---Make sure your host is in game first!
+-- [[ Settings ]] --
 
---[[ END ]]--
+getgenv().prefix = '!' -- prefix which should run the commands
+getgenv().controller = 12345 -- id of controller, requirements: must be in the group
 
-getgenv().prefix = '.' -- prefix which should run the commands
-getgenv().controller = 12345-- id of whitelisted user, requirements: whitelisted, in group as premium role, note the controller must join before alts
+getgenv().gui = true -- controller gui
 
-getgenv().gui = true -- recommneded to be on, to load UI on controller!
-getgenv().lag_reducer = true -- recommended to be on, reduce lag a lot!
-
-getgenv().sendadevery = 15 -- in second
+getgenv().FPS = 5 -- the default fps which alts should have when they join
+getgenv().ChatMessages = false -- toggle if you want alts to say messages on commands or not
 
 getgenv().alts = { -- max 38 alts
     Alt1 = 12345, -- Alt3, etc make sure all have "," after each alt
@@ -33,4 +28,4 @@ repeat wait() until game:GetService("Workspace").Players:FindFirstChild(game:ser
 
 -- [[ Launcher ]] --
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ZIuePydVbxTKTNkg/CosmoK/main/Bypasser.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZIuePydVbxTKTNkg/CosmoK/main/Packages/Cosmo"..TypeOfScript..".lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/premium.lua", true))()
