@@ -4,8 +4,8 @@ end
 
 -- [[ Security ]] --
 
-getgenv().Key = 'CRACKED-BY-PENNYWISE-LOL'
-getgenv().Discord = '696969696969696969'
+getgenv().Key = 'CRACKED-AGAIN-LOSER-LL'
+getgenv().Discord = '111111111111111111'
 
 -- [[ Settings ]] --
 
